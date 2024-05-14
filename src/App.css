@@ -647,4 +647,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/* somke effect */
+@media screen and (max-width: 900px) {
+  .skill_text{
+    padding: 0 !important;
+    text-align: justify !important;
+  }
+}
+@media screen and (max-width: 400px) {
+ 
+    .liner_gradient, .wrap{
+      font-size: 1.8rem !important;
+    }
+}

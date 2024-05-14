@@ -38,7 +38,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Bunch of fresh skills</h2>
-              <p style={{ padding: "0 5rem" }}>
+              <p className="skill_text" style={{ padding: "0 5rem" }}>
                 My expertise extends to harnessing the power of Tailwind CSS,
                 creating elegant, responsive, and user-friendly interfaces. With
                 a commitment to clean code and a keen eye for design.

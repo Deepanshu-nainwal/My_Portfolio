@@ -103,7 +103,13 @@ export const Banner = () => {
                       cursor: "pointer",
                     }}
                   >
-                    <button onClick={() => console.log("connect")}>
+                    <button
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/Deepanshu-nainwal/My_Portfolio"
+                        )
+                      }
+                    >
                       <img src={Github} style={{ maxWidth: "100px" }} />
                     </button>
                     <span className="tagline" onClick={() => handleDownload()}>
